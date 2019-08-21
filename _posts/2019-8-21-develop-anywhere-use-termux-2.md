@@ -78,10 +78,11 @@ Plugin 'VundleVim/Vundle.vim'
 ... 기타 사용하고 싶은 플러그인 추가.
 call vundle#end()
 ```
+그리고 `:w`, `:so %`, `:PluginInstall` 순으로 입력하여 설치를 완료한다.
 
 나는 vue를 사용할 건데, vue에 맞는 syntax highlight가 되어 있지 않다.
 github에 vim plugin [vim-vue](https://github.com/posva/vim-vue) 가 있어 고대로 따라하였다.
-![alt termux vim](/images/posts/2019-08-21/termux-vim.jpg)  
-<span style="color: gray;">[*termux에서 vim으로 vue파일을 편집하는 화면*]</span>
+![alt termux vim](/images/posts/2019-08-21/termux-vim.jpg)
+*[termux에서 vim으로 vue파일을 편집하는 화면]*
 
 이 글도 termux환경에서 작성했다.

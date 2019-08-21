@@ -39,8 +39,7 @@ PC로는 보안정책 때문에 외부망으로 업로드를 할 수가 없다.
 
 그러나? 나는 가난한 월급루팡...  
 스마트폰에 바로 연결되는 저렴한 키보드를 찾았다.  
-![alt keyboard](/images/posts/2019-08-20/ozem-keyboard.jpg)  
-<span style="color:gray;">[*이 제품은 내 돈주고 샀습니다.*]</span>  
+![alt keyboard](/images/posts/2019-08-20/ozem-keyboard.jpg)*[이 제품은 내 돈주고 샀습니다.]*  
 <span style="color:gray;">(저보다 더 가난하신 분들을 ctype usb 젠더를 사셔서 기존에 쓰시던 키보드 꼽아 쓰세요.)</span>
 
 결제금액 대략 13,000원... (편하게 쓰는 비용 1.3만원.. 결혼은 하셨는지?)  
