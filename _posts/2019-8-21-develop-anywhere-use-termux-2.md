@@ -15,13 +15,11 @@ apt repository를 사용한다고 하니, 이보다 더 좋을 수 없다.
 list-all 옵션으로 설치가능한 패키지 목록을 볼 수 있다.
 ```
 pkg list-all
-```
-내가 설치한 패키지 목록은
-```
+
+-- 내가 설치한 패키지 목록은
 pkg list-installed
-```
-삭제는
-```
+
+-- 삭제는
 pkg uninstall [package name]
 ```
 
@@ -29,13 +27,11 @@ pkg uninstall [package name]
 deb라니.. 기대한 것 이상으로 좋다.
 ```
 dpkg -i ./pagekage.deb
-```
-삭제는
-```
+
+-- 삭제는
 dpkg --remove [package name]
-```
-설치된 목록은 이렇게 본다.
-```
+
+-- 설치된 목록은 이렇게 본다.
 dpkg -l
 ```
 
@@ -70,7 +66,7 @@ vimtutor
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vi ~/.vimrc
 ```
-나는 플러그인 설치를 위해 Vundle을 사용했다.
+나는 플러그인 설치를 위해 Vundle을 사용했다.  
 .vimrc에 아래 구문을 추가해서 사용하면 된다.  
 ```
 call vundle#begin()
@@ -80,5 +76,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 나는 vue를 사용할 건데, vue에 맞는 syntax highlight가 되어 있지 않다.
 github에 vim plugin [vim-vue](https://github.com/posva/vim-vue) 가 있어 고대로 따라하였다.
-![alt termux vim](images/posts/2019-08-21/termux-vim.jpg)  
-[*termux에서 vim으로 vhe파일을 편집하는 화면*]
+![alt termux vim](/images/posts/2019-08-21/termux-vim.jpg)  
+[<span style="color: gray;">*termux에서 vim으로 vhe파일을 편집하는 화면*]</span>
+
+이 글도 termux환경에서 작성했다.
