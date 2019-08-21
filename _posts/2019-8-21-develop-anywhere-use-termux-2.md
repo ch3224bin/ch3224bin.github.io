@@ -49,9 +49,10 @@ Ctrl과 Alt를 누른 상태로
 
 # Vim을 사용하자
 나의 계획은 Linux on Dex의 gui를 지원하는 ubuntu에서  
-vscode나 intelliJ를 사용하여 편하게 코딩하는 거였다.
+vscode나 IntelliJ를 사용하여 편하게 코딩하는 거였다.
 
 하지만 돈이 없으면 몸이 고생하는법.
+<span style="color: gray;">(나쁜것 만은 아니다. 왠지 해커같고 폼은 산다.)</span>
 
 나는 vi명령어를 i, wq, !q 정도 밖에 모른다.  
 모르면 배워야지... vim을 설치하고 vimtutor를 실행한다.
@@ -72,6 +73,7 @@ vi ~/.vimrc
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 ... 기타 사용하고 싶은 플러그인 추가.
+call vundle#end()
 ```
 
 나는 vue를 사용할 건데, vue에 맞는 syntax highlight가 되어 있지 않다.
