@@ -70,6 +70,9 @@ vi ~/.vimrc
 나는 플러그인 설치를 위해 Vundle을 사용했다.  
 .vimrc에 아래 구문을 추가해서 사용하면 된다.  
 ```
+" syntax highlight를 켠다.
+syntax on
+
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 ... 기타 사용하고 싶은 플러그인 추가.
