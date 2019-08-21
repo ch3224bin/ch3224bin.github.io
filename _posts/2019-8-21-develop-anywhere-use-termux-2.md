@@ -54,7 +54,7 @@ vscode나 IntelliJ를 사용하여 편하게 코딩하는 거였다.
 하지만 돈이 없으면 몸이 고생하는법.
 <span style="color: gray;">(나쁜것 만은 아니다. 왠지 해커같고 폼은 산다.)</span>
 
-나는 vi명령어를 i, wq, !q 정도 밖에 모른다.  
+나는 vi명령어를 i, wq, q! 정도 밖에 모른다.  
 모르면 배워야지... vim을 설치하고 vimtutor를 실행한다.
 ```
 vimtutor
@@ -79,6 +79,6 @@ call vundle#end()
 나는 vue를 사용할 건데, vue에 맞는 syntax highlight가 되어 있지 않다.
 github에 vim plugin [vim-vue](https://github.com/posva/vim-vue) 가 있어 고대로 따라하였다.
 ![alt termux vim](/images/posts/2019-08-21/termux-vim.jpg)  
-[<span style="color: gray;">*termux에서 vim으로 vue파일을 편집하는 화면*]</span>
+<span style="color: gray;">[*termux에서 vim으로 vue파일을 편집하는 화면*]</span>
 
 이 글도 termux환경에서 작성했다.
