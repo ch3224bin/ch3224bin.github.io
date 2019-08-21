@@ -4,7 +4,7 @@ title: "Termux를 사용해 어디서든 개발하자 - 1부"
 categories: [개발,취미,Termux]
 comments: true
 ---
-# Termux Pakage Management
+# Termux Package Management
 이제부터 vim으로 코딩을 하기에 vim을 설치한다.
 ```
 pkg install vim
