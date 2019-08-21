@@ -2,6 +2,7 @@
 layout: post
 title: "Termux를 사용해 어디서든 개발하자 - 서론"
 categories: [개발,취미,Termux]
+comments: true
 ---
 # 왜 Termux인가?
 나는 하루의 대부분을 회사 안에서 존재한다.  
