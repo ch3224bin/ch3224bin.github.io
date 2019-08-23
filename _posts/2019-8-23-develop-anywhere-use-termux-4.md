@@ -7,7 +7,7 @@ comments: true
 # Vim을 좀 더 편하게
 Termux 덕분에 Vim의 매력에 강제로 빠지게 되었다.  
 그냥 쓰려면 조금 불편하다..  
-좀 더 편해지고 싶다면? 미리미리 불편한 작업을 하자.
+좀 더 편해지고 싶다면? 미리미리 불편한 작업을 해두자.
 
 # 상태바에 멋을 더하자 - vim-airline
 `Plugin 'vim-airline/vim-airline'`
