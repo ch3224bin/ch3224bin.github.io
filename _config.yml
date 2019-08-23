@@ -97,3 +97,5 @@ exclude:
   - README.md
   - CNAME
 
+# 내 LifeLog site
+lifeLogUrl: https://jeff-life.com

@@ -11,9 +11,11 @@ Termux 덕분에 Vim의 매력에 강제로 빠지게 되었다.
 
 # 상태바에 멋을 더하자 - vim-airline
 `Plugin 'vim-airline/vim-airline'`
-![alt vim-airline](/images/posts/2019-08-23/vim-airline.jpg)
-상태바가 좀 더 멋스러워 지고 약간의 설정을 추가하면,  
-상단에 현재 열려있는 버퍼를 확인할 수 있다.
+
+![alt vim-airline](/images/posts/2019-08-23/vim-airline.jpg)*[멋이 상승했다.]*
+
+상태바가 좀 더 멋스러워졌다.  
+거기에 약간의 설정을 추가하면 화면 상단에 열려있는 버퍼를 볼 수 있다.
 ```
 " vim-airline settings
 " 상단 버퍼 목록 켜기
@@ -24,10 +26,10 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 # 파일 찾기 - CtrlP
 IDE의 소중함을 알려주는 Vim.  
-어느 IDE를 사용하던 내가 외우는 파일명은 쉽게 찾아 가지 않았던가?  
+그동안 내가 외우는 파일명은 쉽게 찾아 가지 않았던가?  
 Vim에서는 `Plugin 'ctrlpvim/ctrlp.vim'`가 필요하다.  
 `:CtrlP`를 치면 파일 검색을 할 수 있다. 대단해~  
-아래 처럼 단축키를 지정해서 편히 쓰자.
+아래처럼 단축키를 지정해서 편히 쓰자.
 ```
 " CtrlP
 nmap <Leader>p :CtrlP<CR>
@@ -44,15 +46,19 @@ let g:ctrlp_custom_ignore = {
 " 가장 가까운 디렉토리를 cwd로 사용
 let g:ctrlp_working_path_mode = 'r'
 ```
-![alt vim-ctrlp](/images/posts/2019-08-23/vim-ctrlp.jpg)
+
+![alt vim-ctrlp](/images/posts/2019-08-23/vim-ctrlp.jpg)*[파일 검색이 된다. 게다가 빠릿빠릿함.]*
 
 # 버퍼를 좀 더 편하게 관리하자 - Buffergator
 `Plugin 'jeetsukumaran/vim-buffergator'`  
-버퍼를 이동할때 `:bn`, `:bp`를 쓰고,  
-버퍼를 지울때는 `:bd`를 사용한다.  
-버퍼명을 직접 보면서 쓸수도 있다.  
-![alt vim-buffergator](/images/posts/2019-08-23/vim-buffergator.jpg)
-아래 처럼 단축키를 설정하면 편하다.
+기존에는 버퍼를 이동할때 `:bn`, `:bp`를 쓰고,  
+버퍼를 지울때는 `:bd`를 사용했다.
+
+이 플러그인을 사용하면 버퍼를 목록에서 편하게 관리할 수 있다.
+
+![alt vim-buffergator](/images/posts/2019-08-23/vim-buffergator.jpg)*[열려있는 버퍼를 확인 할 수 있다.]*
+
+아래처럼 단축키를 설정하면 편하다.
 ```
 " Buffergator
 nmap <Leader>jj :BuffergatorMruCyclePrev<CR>
