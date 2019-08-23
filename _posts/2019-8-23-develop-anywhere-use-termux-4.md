@@ -11,7 +11,7 @@ Termux 덕분에 Vim의 매력에 강제로 빠지게 되었다.
 
 # 상태바에 멋을 더하자 - vim-airline
 `Plugin 'vim-airline/vim-airline'`
-[alt vim-airline](/images/posts/2019-08-23/vim-airline.jpg)
+![alt vim-airline](/images/posts/2019-08-23/vim-airline.jpg)
 상태바가 좀 더 멋스러워 지고 약간의 설정을 추가하면,  
 상단에 현재 열려있는 버퍼를 확인할 수 있다.
 ```
@@ -44,14 +44,14 @@ let g:ctrlp_custom_ignore = {
 " 가장 가까운 디렉토리를 cwd로 사용
 let g:ctrlp_working_path_mode = 'r'
 ```
-[alt vim-ctrlp](/images/posts/2019-08-23/vim-ctrlp.jpg)
+![alt vim-ctrlp](/images/posts/2019-08-23/vim-ctrlp.jpg)
 
 # 버퍼를 좀 더 편하게 관리하자 - Buffergator
 `Plugin 'jeetsukumaran/vim-buffergator'`  
 버퍼를 이동할때 `:bn`, `:bp`를 쓰고,  
 버퍼를 지울때는 `:bd`를 사용한다.  
 버퍼명을 직접 보면서 쓸수도 있다.  
-[alt vim-buffergator](/images/posts/2019-08-23/vim-buffergator.jpg)
+![alt vim-buffergator](/images/posts/2019-08-23/vim-buffergator.jpg)
 아래 처럼 단축키를 설정하면 편하다.
 ```
 " Buffergator
