@@ -64,6 +64,8 @@ let g:ctrlp_working_path_mode = 'r'
 nmap <Leader>jj :BuffergatorMruCyclePrev<CR>
 nmap <Leader>kk :BuffergatorMruCycleNext<CR>
 nmap <Leader>bl :BuffergatorOpen<CR>
+" 현재 버퍼를 닫고 이전 버퍼로 이동
+nmap <Leader>bq :bp <BAR> bd #<CR>
 
 " Buffergator settings
 let g:buffergator_viewport_split_policy = 'B'
