@@ -47,7 +47,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ![alt 자동완성](/images/posts/2019-08-28/coc-2.jpg)*[여기까지 아름다운 모습들]*
 
 Html 태그를 닫으려 하자 오류가 발생한다.
-![alt 자동완성](/images/posts/2019-08-28/coc-3.jpg)*[아름답지 못한 모습 }*
+![alt 자동완성](/images/posts/2019-08-28/coc-3.jpg)*[아름답지 못한 모습 ]*
 
 # 파일 자동완성 기능은 끄자.
 `/`를 입력하면 루트 아래의 하위 디렉토리를 자동완성으로 보여준다.  
@@ -81,8 +81,13 @@ let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetDirectories = ['UltiSnips']
 ```
 
+`coc.nvim`과 연동을 위해 아래 명령을입력한다.
+```
+:CocInstall coc-ultisnips
+```
+
 `~/.vim/UltiSnips` 디렉토리 안에 `vue.snippets`파일을 만들었다.
-```snippets
+```
 snippet "<([^\s].*)" "tag <...></...>" r
 <`!p snip.rv=match.group(1)`>
 	$0
