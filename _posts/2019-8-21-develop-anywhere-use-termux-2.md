@@ -7,7 +7,7 @@ comments: true
 # Termux Package Management
 이제부터 vim으로 코딩을 하기에 vim을 설치한다.
 ```
-pkg install vim
+$ pkg install vim
 ```
 `pkg`라는 명령어는 `apt-get`과 비슷하다.  
 apt repository를 사용한다고 하니, 이보다 더 좋을 수 없다.
