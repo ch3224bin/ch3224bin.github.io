@@ -71,6 +71,12 @@ Plug 'SirVer/ultisnips'
 
 `:so %`, `:PlugInstall` 설치하자.  
 
+*이 플러그인은 python이 필요하다. vim-python이 필요하면 설치하자.*
+```
+pkg uninstall vim
+pkg install vim-python
+```
+
 아래의 단축키 설정도 `.vimrc`에 추가한다.
 ```
 " ultisnips settins
