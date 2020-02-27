@@ -46,5 +46,5 @@ syntastic.finalizedBy(replaceSlash)
 # 마치며
 이미 이슈가 2015년에 올라와 있는데 5년이 가도록 아무도 고치고 있지 않다. 
 
-[Slashes in syntastic_javac_config)(https://github.com/Scuilion/gradle-syntastic-plugin/issues/6)
+[Slashes in syntastic_javac_config](https://github.com/Scuilion/gradle-syntastic-plugin/issues/6)
 
