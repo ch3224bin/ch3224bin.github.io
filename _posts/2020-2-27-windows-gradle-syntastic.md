@@ -14,14 +14,14 @@ Vim에서 Java 코드를 작성하고 싶어졌다.
 [gradle-syntastic-plugin](https://github.com/Scuilion/gradle-syntastic-plugin) 에 자세한 설치 방법이 적혀있다.  
 (먼저 [syntastic](https://github.com/vim-syntastic/syntastic) 이 설치가 되어있어야 한다.)
 
-```let g:syntastic_java_javac_config_file_enabled = 1```
-.vimrc에 위의 설정을 하면 cwd에 위치한 .syntastic_javac_config 파일을 읽어와 문법오류체크에 필요한 클래스패스를 확인한다.  
+> let g:syntastic_java_javac_config_file_enabled = 1
+.vimrc에 위의 설정을 하면 cwd에 위치한 **.syntastic_javac_config** 파일을 읽어와 문법오류체크에 필요한 클래스패스를 확인한다.  
 
 이 플러그인은 gradle build시 클래스패스를 모아 위 파일을 생성한다.  
 
 # Windows에서의 문제
 클래스패스의 디렉토리를 '\'로 나타내는데 Vim의 syntastic가 이걸 이스케이프 시퀀스로 처리해버린다.(\n \b 같이)  
-```:SyntasticJavacEditClasspath```
+> :SyntasticJavacEditClasspath
 Vim에서 위 명령어를 치면 잘 깨져나오는 것을 볼 수 있다. 
 때문에 제대로 동작을 안한다.  
 
