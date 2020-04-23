@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git clone한 소스 윈도우에서 docker로 돌렸을 때"
+title: "윈도우에서 git clone한 소스 docker로 돌렸을 때"
 categories: [개발,Docker,Git]
 comments: true
 ---
