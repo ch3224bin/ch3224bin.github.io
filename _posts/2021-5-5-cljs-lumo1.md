@@ -29,13 +29,13 @@ $ sudo npm install -g lumo-cljs --unsafe-perm
 
 난 Clojure에 대해 1도 모름으로 Hello, World!를 먼저 찍어본다.
 
-1. 파일 생성
+- 파일 생성
 
 ```bash
 $ vi hello.cljs
 ```
 
-2. 코드 작성
+- 코드 작성
 
 ```clojure
 #!/usr/bin/env lumo
@@ -43,7 +43,7 @@ $ vi hello.cljs
 (println "Hello, World!")
 ```
 
-3. 실행권한 부여 후 실행
+- 실행권한 부여 후 실행
 
 ```bash
 $ chmod +x hello.cljs
