@@ -40,14 +40,18 @@ remote_write:
 tenant 별 쿼리는 http header `X-Scope-OrgID` 에 tenant 값을 지정하여 할 수 있다.  
 multi-tenant 쿼리를 할때는 tenant 사이에 파이프(|)를 연결해 주면 된다.
 
-tenant 가 team1, team2, team3 이 있다고 하면 아래와 같이 설정한다.
-> X-Scope-OrgID: team1|team2|team3
+각 tenant team1, team2, team3을 같이 조회하고 싶다면 아래와 같이 설정한다.
+
+```text
+X-Scope-OrgID: team1|team2|team3
+```
 
 ![QUERY API](/images/posts/2022-04-23/cotex-multi-tenant-query.png)
+<span style="color:gray;">위와 같이 테스트 해보자</span>
 
 
 ## 출처
 
-- https://www.youtube.com/watch?v=VPBKNfRRytg
-- https://cortexmetrics.io/docs/configuration/configuration-file/#supported-contents-and-default-values-of-the-config-file
-- https://cortexmetrics.io/docs/proposals/cross-tenant-query-federation/
+- [https://www.youtube.com/watch?v=VPBKNfRRytg](https://www.youtube.com/watch?v=VPBKNfRRytg)
+- [https://cortexmetrics.io/docs/configuration/configuration-file/#supported-contents-and-default-values-of-the-config-file](https://cortexmetrics.io/docs/configuration/configuration-file/#supported-contents-and-default-values-of-the-config-file)
+- [https://cortexmetrics.io/docs/proposals/cross-tenant-query-federation](https://cortexmetrics.io/docs/proposals/cross-tenant-query-federation)
