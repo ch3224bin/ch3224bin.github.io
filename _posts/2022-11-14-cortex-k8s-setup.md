@@ -23,7 +23,7 @@ Helm Chart를 사용하여 설치합니다. [링크](https://github.com/cortexpr
 ```
 helm repo add cortex-helm https://cortexproject.github.io/cortex-helm-chart
 ```
-### 설정파일 없이 Cortex Install
+#### 설정파일 없이 Cortex Install
 
 ```
   helm install cortex --namespace cortex cortex-helm/cortex
